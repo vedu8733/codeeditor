@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <p class="logo">CODE EDITOR</p>
+        <p class="navitem"> <a href="#op">Output</a></p>
+        <button class="button">Run</button>
+    </div>
+    <div class="container">
+        <div class="box">
+            <p> <i class="ri-html5-fill"></i>HTML</p>
+            <textarea class="htmlcode">
+
+            </textarea>
+        </div>
+        <div class="box">
+            <p><i class="ri-css3-fill"></i>CSS</p>
+            <textarea class="csscode">
+
+            </textarea>
+        </div>
+        <div class="box">
+            <p><i class="ri-javascript-fill"></i>JAVASCRIPT</p>
+            <textarea class="jscode">
+
+            </textarea>
+        </div>
+    </div>
+
+    <div class="result">
+        <p>output-</p>
+<iframe  class="output" id="op"></iframe>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
